@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Day12</string>
+    <string name="hello">hello</string>
+    <string name="order_food">订餐</string>
+    <string name="time_show_long">时间显示长点</string>
+    <string name="time_show_short">时间显示短点</string>
+    <string name="RED">red</string>
+    <string name="GREEN">green</string>
+    <string name="BLUE">blue</string>
+    <string name="linear">Linear</string>
+    <string name="frame">Frame</string>
+    <string name="table">Table</string>
+    <string name="table1">Table1</string>
+    <string name="relative">Relative</string>
+    <string name="absolute">Absolute</string>
+    <string name="name">用户名</string>
+    <string name="password">用户密码</string>
+    <string name="dl">登陆</string>
+    <string name="zc">注册</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="C">C</string>
+    <string name="D">D</string>
+    <string name="ZERO">0</string>
+    <string name="ONE">1</string>
+    <string name="TWO">2</string>
+    <string name="THREE">3</string>
+    <string name="FOUR">4</string>
+    <string name="FIVE">5</string>
+    <string name="SIX">6</string>
+    <string name="SEVEN">7</string>
+    <string name="EIGHT">8</string>
+    <string name="Nine">9</string>
+    <string name="division">/</string>
+    <string name="qiuyu">%</string>
+    <string name="multiplication">*</string>
+    <string name="zhiyi">1/x</string>
+    <string name="subtraction">-</string>
+    <string name="equal">=</string>
+    <string name="point">.</string>
+    <string name="add">+</string>
+    <string name="delete">DELETE</string>
+
+
+
+
+</resources>

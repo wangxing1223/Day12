@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.Day12"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="18"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="MyActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Linear" android:label="linear"/>
+        <activity android:name=".Frame" android:label="frame"/>
+        <activity android:name=".Table" android:label="table"/>
+        <activity android:name=".Relative" android:label="relative"/>
+        <activity android:name=".Absolute" android:label="absolute"/>
+        <activity android:name=".Table1" android:label="table1"/>
+    </application>
+</manifest>

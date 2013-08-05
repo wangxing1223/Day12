@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:text="@string/RED"
+                android:background="#f00"
+                android:gravity="center_horizontal"
+                >
+        </TextView>
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:text="@string/GREEN"
+                android:background="#0f0"
+                android:gravity="center_horizontal"
+                >
+        </TextView>
+        <TextView
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:text="@string/BLUE"
+                android:background="#00f"
+                android:gravity="center_horizontal"
+                >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200px"
+                android:text="@string/time_show_long"
+                android:background="#9804ff"
+                android:gravity="center_vertical"
+                >
+        </TextView>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="200px"
+                android:text="@string/time_show_short"
+                android:background="#456"
+                android:gravity="center_vertical"
+                >
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:layout_gravity="center" android:layout_weight="1">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button4"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button2"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="New Button"
+                android:id="@+id/button" android:layout_gravity="top"/>
+    </LinearLayout>
+</LinearLayout>
